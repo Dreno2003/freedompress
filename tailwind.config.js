@@ -11,7 +11,12 @@ module.exports = {
     theme: {
         extend: {
             width: {
-                'iw': '15.5vw'
+                'iw': '15.5vw',
+                'wi': '96vw'
+            },
+
+            height: {
+                'iv': '56vh'
             },
 
             borderWidth: {
