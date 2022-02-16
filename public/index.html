@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@3">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="./resources/js/main.js"></script> -->
+
 </head>
 
 <body style="font-family: 'Poppins', sans-serif;">
@@ -21,7 +23,7 @@
          <polygon points="50,0 100,0 50,100 0,100" />
        </svg>
                 <div>
-                    <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+                    <div class="shadow-md relative pt-6 px-4 sm:px-6 lg:px-8">
                         <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
                             <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                                 <div class="flex items-center justify-between w-full md:w-auto">
@@ -30,10 +32,10 @@
                                         <h3>Freedom Press</h3>
                                     </a>
                                     <div class="-mr-2 flex items-center md:hidden">
-                                        <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+                                        <button type="button" onclick="openMenu()" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
                      <span class="sr-only">Open main menu</span>
                      <!-- Heroicon name: outline/menu -->
-                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                     <svg class="h-6 w-6 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                      </svg>
                    </button>
@@ -62,14 +64,14 @@
              From: "opacity-100 scale-100"
              To: "opacity-0 scale-95"
          -->
-                    <div class="hidden absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+                    <div id="navigations" class="hidden absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
                         <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                             <div class="px-5 pt-4 flex items-center justify-between">
                                 <div>
                                     <h2>Freedom Press</h2>
                                 </div>
                                 <div class="-mr-2">
-                                    <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                                    <button type="button" onclick="closeMenu()" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                    <span class="sr-only">Close main menu</span>
                    <!-- Heroicon name: outline/x -->
 			
@@ -288,6 +290,19 @@
         </div>
     </footer>
 
+    <!-- <script src="./resources/js/main.js"></script> -->
+    <script src="./resources/js/main.js">
+        // const openMenu = () => {
+        //     var navItems = document.getElementById('navigations');
+        //     navItems.style.display = 'block'
+        //     console.log('l')
+        // }
+
+        // const closeMenu = () => {
+        //     var navItems = document.getElementById('navigations');
+        //     navItems.style.display = 'none';
+        // }
+    </script>
 </body>
 
 </html>
