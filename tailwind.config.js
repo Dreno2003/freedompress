@@ -12,7 +12,9 @@ module.exports = {
         extend: {
             width: {
                 'iw': '15.5vw',
-                'wi': '96vw'
+                'wi': '96vw',
+                'product-width': '28.75vw',
+                'us-width': '25.8vw'
             },
 
             height: {
