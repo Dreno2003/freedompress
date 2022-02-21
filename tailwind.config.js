@@ -21,7 +21,7 @@ module.exports = {
                 'iv': '56vh',
                 'product-h-mobile': '79.6vw',
                 'product-height': '19em',
-                'about-img-h': '31em'
+                'about-img-h': '29.5em'
             },
 
             borderWidth: {
