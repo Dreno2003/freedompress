@@ -20,11 +20,20 @@ module.exports = {
             height: {
                 'iv': '56vh',
                 'product-h-mobile': '79.6vw',
-                'product-height': '19em'
+                'product-height': '19em',
+                'about-img-h': '31em'
             },
 
             borderWidth: {
                 3: '3.5px'
+            },
+
+            inset: {
+                'about-b': '50vh'
+            },
+
+            backgroundImage: {
+                'about-hero-img': "url('/public/resources/images/herosection images/about.jpg')"
             }
         },
     },
