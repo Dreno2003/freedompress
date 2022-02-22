@@ -33,7 +33,7 @@ module.exports = {
             },
 
             backgroundImage: {
-                'about-hero-img': "url('/public/resources/images/herosection images/about.jpg')"
+                'about-hero-img': "url('/public/resources/images/herosectionimg/about.jpg')"
             }
         },
     },
