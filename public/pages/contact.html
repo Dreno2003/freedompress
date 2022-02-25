@@ -5,11 +5,188 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About-Freedom Press</title>
+    <link rel="stylesheet" href="../output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
-<body>
+<body style="font-family: 'Poppins', sans-serif;">
 
+    <div class="relative bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <div class="relative0 z-10 bg-white lg:0max-w-2xl lg:w-full ">
+                <svg class="hidden absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+            <polygon points="50,0 100,0 50,100 0,100" />
+        </svg>
+                <div>
+                    <div class="shadow-md relative py-3 px-4 sm:px-6 lg:px-8 lg:shadow">
+                        <nav class="relative flex items-center justify-between sm:h-10 lg:space-between" aria-label="Global">
+                            <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+                                <div class="flex items-center justify-between w-full md:w-auto">
+                                    <a href="#">
+                                        <span class="sr-only">Workflow</span>
+                                        <h3>Freedom Press</h3>
+                                    </a>
+                                    <div class="-mr-2 flex items-center md:hidden">
+                                        <button type="button" onclick="openMenu()" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+                 <span class="sr-only">Open main menu</span>
+                 <!-- Heroicon name: outline/menu -->
+                 <svg class="h-6 w-6 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                 </svg>
+               </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                                <a href="../index.html" class="font-medium text-gray-500 hover:text-gray-900">Home</a>
+
+                                <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Services</a>
+
+                                <a href="about.html" class="font-medium text-gray-500 hover:text-gray-900">About</a>
+
+                                <a href="contact.html" class="font-medium text-gray-500 hover:text-gray-900">Contact</a>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <!--
+       Mobile menu, show/hide based on menu open state.
+
+       Entering: "duration-150 ease-out" 
+         From: "opacity-0 scale-95"
+         To: "opacity-100 scale-100"
+       Leaving: "duration-100 ease-in"
+         From: "opacity-100 scale-100"
+         To: "opacity-0 scale-95"
+     -->
+                    <div id="navigations" class="hidden absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+                        <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+                            <div class="px-5 pt-4 flex items-center justify-between">
+                                <div>
+                                    <h2>Freedom Press</h2>
+                                </div>
+                                <div class="-mr-2">
+                                    <button type="button" onclick="closeMenu()" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+               <span class="sr-only">Close main menu</span>
+               <!-- Heroicon name: outline/x -->
+  
+               <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+               </svg>
+        
+             </button>
+                                </div>
+                            </div>
+                            <div class="px-2 pt-2 pb-3 space-y-1">
+                                <a href="../index.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Home</a>
+
+                                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Services</a>
+
+                                <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">About</a>
+
+                                <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="contact-section" class="px-6 mb-5 mt-10">
+            <div>
+                <div class="text-gray-500">
+                    <div class="mb-6">
+                        <h3 class="text-gray-600 text-2xl font-bold">Contact Us</h3>
+                        <div class="border-t-3 border-indigo-600 w-6 mt-3"></div>
+                    </div>
+                    <div class="mb-3">
+                        <p>Get in touch with us <span><a href="#">@freedompress</a></span> to see how we can help you with your project</p>
+                    </div>
+                    <div>
+                        <p>34/36 freedompress street, Calabar Nigeria</p>
+                        <p class="my-3">freedompress@gmail.com</p>
+                        <p class="">+234 701 566 7890,<br>+234 345 987 9802</p>
+                    </div>
+                </div>
+
+                <div class="mt-11 border-2 divide-gray-300 rounded-md px-8 py-14">
+                    <h3 class="text-gray-600 text-3xl mb-4">We're here to help.</h3>
+                    <h4 class="text-gray-400 mb-6">We always want to hear from you!</h4>
+                    <form action="">
+                        <div class=" border-2 divide-gray-300 rounded mb-3 sm:mb-5 "><input type="text" name="fullname" placeholder="Fullname:" class="outline-none py-2 px-2 w-full bg-gray-50"></div>
+                        <div class=" border-2 divide-gray-300 rounded mb-3 sm:mb-5"><input type="number" name="Mobile Number" placeholder="Mobile Number:" class="outline-none py-2 px-2 w-full bg-gray-50"></div>
+                        <div class=" border-2 divide-gray-300 rounded sm:mb-5 mb-3"><input type="email" name="Email" placeholder="Email" class="outline-none py-2 px-2 w-full bg-gray-50"></div>
+                        <div class=" border-2 divide-gray-300 rounded mb-3 sm:mb-5 "><input type="text" name="message" placeholder="Message:" class="outline-none py-2 px-2 w-full bg-gray-50"></div>
+                        <div class="bg-indigo-600 text-white text-center flex justify-center items-center rounded py-3 "><input type="submit" name="fullname" value="SEND MESSAGE" class="text-xs w-3/12 outline-none"></div>
+                    </form>
+                </div>
+
+            </div>
+
+    </div>
+    </div>
+    </section>
+
+    <section id="google-map">
+        <div>
+
+        </div>
+    </section>
+
+    <footer id="theFooter " class="text-white px-6 py-10 flex flex-col justify-center " style="background-color: #202020ec; ">
+        <div class="footercontents flex flex-wrap justify-evenly flex-col md:flex-row">
+            <div id="contacts ">
+                <!-- logo -->
+                <div>
+                    <h3 class="font-extrabold mb-7 ">Freedom Press</h3>
+                    <h4 class="font-extrabold mb-4 ">Creativity at its climax!</h4>
+                </div>
+                <div class="contactsContents text-sm font-medium text-gray-400 leading-relaxed ">
+                    <p class="mb-3 ">34/36 Lokogi Road Yaba,<br>lagos Nigeria</p>
+                    <p class="contactNums ">+234 098 333 6830 <br>+234 098 333 6830 </p>
+                    <p class="mail ">info@freedompress.com</p>
+                </div>
+            </div>
+
+            <div class="Description mt-7 md:w-4/12">
+                <h3 class="font-extrabold mb-4 ">Get in Touch with Us for the High Quality Printings & Designs.</h3>
+                <div class="text-gray-400 font-medium text-sm ">
+                    <p class="leading-relaxed ">Design & Print Business Cards, flyers, mugs and other print products online and we will deliver your to doorstep. Get instant quotes.</p>
+                    <p class="mt-6 leading-relaxed ">Creative Branding, Graphic Design for Business Advertisement and High-quality Printing At Its Peak!.</p>
+                </div>
+            </div>
+
+            <div class="quickLinks ">
+                <h3 class="font-extrabold mt-7 ">Quick links</h3>
+                <div class="text-gray-400 text-sm font-medium flex flex-col leading-relaxed ">
+                    <a href="# " class=" ">
+                        <!-- link to the about page -->
+                        <span>Know More About Us</span>
+                    </a>
+                    <a href="# ">
+                        <!-- link to the contact pae -->
+                        <span>Let's Connects</span>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="font-extrabold mt-7 ">Open Hours</h3>
+                <div class="openingTime text-sm font-medium text-gray-400 mt-4 ">
+                    <p class="mb-2 ">Mon-Fri8am - 6pm</p>
+                    <p class="mb-2 ">Sat10am- 6pm</p>
+                    <p class=" ">Sun- Close</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="../resources/js/main.js"></script>
 </body>
 
 </html>
