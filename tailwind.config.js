@@ -19,6 +19,7 @@ module.exports = {
                 'cards-width': '43.5vw',
                 'cards-widths': '20.5vw',
                 'cards-width-b': '34.3em',
+                'form-width': '43rem'
             },
 
             height: {

@@ -97,12 +97,12 @@
             </div>
         </div>
 
-        <section id="contact-section" class="px-6 mb-5 mt-10">
-            <div>
-                <div class="text-gray-500">
+        <section id="contact-section" class="px-6 mb-5 mt-10 lg:text-lg">
+            <div class='md:flex gap-x-20'>
+                <div class="text-gray-500 ">
                     <div class="mb-6">
-                        <h3 class="text-gray-600 text-2xl font-bold">Contact Us</h3>
-                        <div class="border-t-3 border-indigo-600 w-6 mt-3"></div>
+                        <h3 class="text-gray-600 text-2xl font-bold lg:text-4xl">Contact Us</h3>
+                        <div class="border-t-3 border-indigo-600 w-6 mt-3 md:w-16"></div>
                     </div>
                     <div class="mb-3">
                         <p>Get in touch with us <span><a href="#">@freedompress</a></span> to see how we can help you with your project</p>
@@ -114,15 +114,15 @@
                     </div>
                 </div>
 
-                <div class="mt-11 border-2 divide-gray-300 rounded-md px-8 py-14">
+                <div class="mt-11 border-2 divide-gray-300 rounded-md px-8 py-14 md:w-form-width">
                     <h3 class="text-gray-600 text-3xl mb-4">We're here to help.</h3>
-                    <h4 class="text-gray-400 mb-6">We always want to hear from you!</h4>
+                    <h4 class="text-gray-400 mb-6 lg:text-base">We always want to hear from you!</h4>
                     <form action="">
-                        <div class=" border-2 divide-gray-300 rounded mb-3 sm:mb-5 "><input type="text" name="fullname" placeholder="Fullname:" class="outline-none py-2 px-2 w-full bg-gray-50"></div>
-                        <div class=" border-2 divide-gray-300 rounded mb-3 sm:mb-5"><input type="number" name="Mobile Number" style='-moz-appearance: textfield;  -webkit-appearance: none;' placeholder="Mobile Number:" class="outline-none appearance-none py-2 px-2 w-full bg-gray-50"></div>
-                        <div class=" border-2 divide-gray-300 rounded sm:mb-5 mb-3"><input type="email" name="Email" placeholder="Email" class="outline-none py-2 px-2 w-full bg-gray-50"></div>
-                        <div class=" border-2 divide-gray-300 rounded mb-3 sm:mb-5 "><input type="text" name="message" placeholder="Message:" class="outline-none py-2 px-2 w-full bg-gray-50"></div>
-                        <div class="bg-indigo-600 text-white text-center flex justify-center items-center rounded py-3 "><input type="submit" name="fullname" value="SEND MESSAGE" class="text-xs w-3/12 outline-none"></div>
+                        <div class=" border-2 divide-gray-300 rounded mb-3 sm:mb-5 "><input type="text" name="fullname" placeholder="Fullname:" required class="outline-none p-2 text-gray-500 w-full bg-gray-50"></div>
+                        <div class=" border-2 divide-gray-300 rounded mb-3 sm:mb-5"><input type="number" name="Mobile Number" required style='-moz-appearance: textfield;  -webkit-appearance: none;' placeholder="Mobile Number:" class="outline-none text-gray-500 appearance-none py-2 px-2 w-full bg-gray-50"></div>
+                        <div class=" border-2 divide-gray-300 rounded sm:mb-5 mb-3"><input type="email" name="Email" placeholder="Email:" required class="outline-none p-2 w-full text-gray-500 bg-gray-50"></div>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Message:" required class="border-2 divide-gray-300 w-full p-2 rounded outline-none sm:mb-5 mb-3 text-gray-500 bg-gray-50 " style="-webkit-appearance:none; "></textarea>
+                        <button type="submit" value="Submit" class="bg-indigo-600 text-white w-full h-9 uppercase rounded ">Submit</button>
                     </form>
                 </div>
 
